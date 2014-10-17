@@ -1,9 +1,6 @@
 body.yui-skin-sam,
-.yui-skin-sam table,
 .yui-skin-sam form,
 .yui-skin-sam input,
-.yui-skin-sam td,
-.yui-skin-sam th,
 .yui-skin-sam p,
 .yui-skin-sam textarea,
 .yui-skin-sam select
@@ -13,6 +10,12 @@ body.yui-skin-sam,
     color: #333;
 }
 
+.yui-skin-sam table,
+.yui-skin-sam td,
+.yui-skin-sam th
+{
+    font-family: Osaka-mono, "MS Gothic", monospace;
+}
 /*!
  * Copyright 2013 Twitter, Inc
  * Licensed under the Apache License v2.0
@@ -563,14 +566,14 @@ textarea
 }
 
 .yui-skin-sam #search-box {
-    font-size: 16px;
+    font-size: 12px;
     background-image: none;
 }
 
 /******************* side panel styles ***********************/
 #tasks {
-    margin-top: 5px;
-    font-size: 12px;
+    margin-top: 4px;
+    font-size: 14px;
     margin-right: 30px;
     padding-left: 0;
 }
@@ -813,4 +816,3 @@ a.yuimenulabel, a.yuimenuitemlabel,
     -webkit-box-sizing:border-box;
     -moz-box-sizing: border-box;
 }
-/* web hook test */
