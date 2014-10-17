@@ -4,7 +4,7 @@
 jQuery(function($) {
 
     var colors = [
-        '#C02942', // a red
+        '#f03554', // a red
         '#4ecdc4', // a bright green blue
         '#d95b43', // orange
         '#556270', // a slate color
@@ -125,13 +125,13 @@ jQuery(function($) {
     $("#top-panel, #header").css('background-color', color);
 
     // Remove icons from the left hand menu and strip nbsp's
-    /*$(".task").each(function() {
+    $(".task").each(function() {
         $("a img", $(this)).remove();
         $(this).html(function(_, oldHtml) {
             var replaced = oldHtml.replace(/&nbsp;/g, "", "g");
             return replaced;
         });
-    });*/
+    });
 
     // build a callout
     var getCallout = function(message, href) {
