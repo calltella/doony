@@ -123,6 +123,7 @@ jQuery(function($) {
 
     var color = colors[Math.abs(hashCode(domain)) % colors.length];
     $("#top-panel, #header").css('background-color', color);
+    $("a").css('text-decoration','none').css('color','#204A87');
 
     // Remove icons from the left hand menu and strip nbsp's
     $(".task").each(function() {
